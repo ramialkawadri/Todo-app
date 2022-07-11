@@ -34,5 +34,3 @@ window.addEventListener('storage', (e) => {
     renderTodos();
   }
 });
-
-// Bonus: Add a watcher for local storage
