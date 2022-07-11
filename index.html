@@ -1,56 +1,9 @@
 <!DOCTYPE html>
-
-<html>
-  <head>
-    <link rel="stylesheet" href="styles/style.css" />
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
-
-    <title>Todo app</title>
-  </head>
-  <body>
-    <div class="header">
-      <div class="container">
-        <h1 class="header__title">To-do App</h1>
-        <h2 class="header__subtitle">What do you need to do?</h2>
-      </div>
-    </div>
-
-    <div class="actions">
-      <div class="actions__container">
-        <input
-          id="search-text"
-          class="input"
-          type="text"
-          placeholder="Filter todos"
-        />
-        <label class="checkbox">
-          <input type="checkbox" id="hide-completed" /> Hide completed
-        </label>
-      </div>
-    </div>
-
-    <div class="container">
-      <div id="todos"></div>
-
-      <form id="new-todo">
-        <input
-          class="input"
-          type="text"
-          name="text"
-          placeholder="Enter something to do"
-        />
-        <button class="button">Add todo</button>
-      </form>
-    </div>
-
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment-with-locales.min.js"
-      integrity="sha512-dMDTUgZkz1nUtYksAL8IisEkdCDNBuAC+mSnWRPlANDVvvVnGn9h3xKPOq6Bbr/2sRQMTf6SA7ZlRSnbs7TCAw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script src="script/uuidv4.js"></script>
-    <script src="script/todo-function.js"></script>
-    <script src="script/todo-app.js"></script>
-  </body>
+<html lang="en">
+<body>
+  <!-- Sends us to the right file -->
+  <script>
+    location.assign('./public/index.html');
+  </script>
+</body>
 </html>
